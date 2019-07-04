@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>soNguyenToS6</title>
+</head>
+<body>
+<script>
+    function isPrime(number) {
+        for(i=2; i<number-1; i++){
+            if(number%i ==0){
+                return false
+            } else {
+                return true
+            }
+        }
+    }
+
+    let numInput = Number(prompt("Enter the number"));
+    alert(isPrime(numInput));
+
+</script>
+</body>
+</html>
